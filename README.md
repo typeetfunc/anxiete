@@ -138,6 +138,7 @@ label exit;
  - http://blog.sigfpe.com/2008/12/mother-of-all-monads.html  - продолжения как прородитель монад
  - https://blog.melding-monads.com/2009/12/20/are-continuations-really-the-mother-of-all-monads/ - или нет
  - https://courses.cs.washington.edu/courses/cse505/01au/functional/functional-io.pdf - описание трех способов на примере абстракции IO
+ - https://youtu.be/Tkjg179M-Nc
 
 ### Что дальше?
  - доказать что все эти проблемы стекаются к одной или опровергнуть это
@@ -146,6 +147,7 @@ label exit;
  - шедулинг?
  - может нет 3 способов а есть один общий а все остальное вытекает из него
  - примеры
+ - композиция control-flow - проблема монадных трансформеров(как решать и есть ли в остальных)
 
 ## Постановка задач не использует VCS
 
