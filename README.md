@@ -35,11 +35,18 @@ Cейчас это называют статическими типами.
 То что можем легко и безболезнено проверить статически проверяем статически - то что не можем проверяем динамически при помощи property-based testing.
 Так же можно будет управлять степенью строгости проверок и их количеством в процессе разработки программы: в зависимости от того, что важнее для нас на данном этапе разработки – корректность или скорость и удобство разработки.
 
+TODO тесты проперти и спецификации все должно быть видно в иде при редактировании кода - лежать может гдето в другом месте но в коде мы должны мочь быстро просмотреть все тесты и постоянные ограничения на поведение(как статические так и динамические) 
+
+TODO итого было бы очень клево иметь такой пайплайн
+ручками натыкали -> получили тесты -> проанализировав тесты в рантайме получили спецификации данных(читай типы) -> по типам нагенерили проперти тестов -> круг замкнулся
+
 ### Ссылки
+ - https://arxiv.org/pdf/1607.05443.pdf - а вот ребята написали пейпер на похожий язык(только забыли про статику похоже)
  - http://blog.csssr.ru/2017/04/25/property-testing/ - введение в property-based testing и постановка вопроса
  - https://github.com/pelotom/runtypes, https://github.com/gcanti/tcomb, https://github.com/andreypopp/validated - либы для JS для динамической валидации но с частичной поддержкой статических типов.
  - https://blog.acolyer.org/2016/02/05/is-sound-gradual-typing-dead/
  - http://danluu.com/empirical-pl/ - многочисленные сравнения статики и динамики
+ - http://blog.guillermowinkler.com/blog/2015/04/12/verifying-state-machine-behavior-using-test-dot-check/ - statefull example property
 
 ### Что дальше?
  - написать генератор данных для одной из либ из списка выше
@@ -61,7 +68,7 @@ Cейчас это называют статическими типами.
 
 Control-flow - порядок выполнения (порядок исполнения, порядок вычислений) — это способ упорядочения инструкций программы в процессе её выполнения.
 
-Примеры:
+Примеры(TODO примеры диаграм контрол флоу):
 
  - последовательный 
 ```javascript
@@ -139,6 +146,7 @@ label exit;
  - https://blog.melding-monads.com/2009/12/20/are-continuations-really-the-mother-of-all-monads/ - или нет
  - https://courses.cs.washington.edu/courses/cse505/01au/functional/functional-io.pdf - описание трех способов на примере абстракции IO
  - https://youtu.be/Tkjg179M-Nc
+ - https://github.com/cyclejs/cyclejs/issues/581#issuecomment-301344221
 
 ### Что дальше?
  - доказать что все эти проблемы стекаются к одной или опровергнуть это
@@ -206,6 +214,7 @@ label exit;
  - http://witheve.com/
  - http://www.cs.cmu.edu/~NatProg/whyline.html
  - http://nightcoders.net/
+ - https://sekao.net/nightlight/
  - http://pharo.org/
  - http://elm-lang.org/blog/the-perfect-bug-report
  - http://reactide.io/
