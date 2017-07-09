@@ -47,6 +47,12 @@ TODO итого было бы очень клево иметь такой пай
  - https://blog.acolyer.org/2016/02/05/is-sound-gradual-typing-dead/
  - http://danluu.com/empirical-pl/ - многочисленные сравнения статики и динамики
  - http://blog.guillermowinkler.com/blog/2015/04/12/verifying-state-machine-behavior-using-test-dot-check/ - statefull example property
+ - https://www.reddit.com/r/haskell/comments/30ixt4/programming_with_refinement_types/
+ - https://arxiv.org/abs/1507.00385
+ - http://noamz.org/papers/isbell.pdf
+ - https://cstheory.stackexchange.com/questions/21836/why-does-coq-have-prop
+ - https://news.ycombinator.com/item?id=7875309
+ - https://cs.stackexchange.com/questions/54957/difference-between-dependent-type-refinement-type-and-hoare-logic
 
 ### Что дальше?
  - написать генератор данных для одной из либ из списка выше
@@ -136,7 +142,8 @@ label exit;
  - [Algebraic Effects](https://esdiscuss.org/topic/one-shot-delimited-continuations-with-effect-handlers) - решение вопроса сайд-эффектов при помощи обмена продолжений
 
 Однако все это очень не генерализированно и вообще нет понимания что это все одна и та же проблема(ОРЛИ?) и вообще все эти способы ее решать так или иначе изоморфны друг другу(ОРЛИ?).
-
+TODO контрол флоу это просто вычисления высшего порядка - то есть вычисления над вычислениями.
+ControlFlow(F1, F2) -> F3
 
 ### Ссылки
  - http://chris-taylor.github.io/blog/2013/02/09/io-is-not-a-side-effect/
@@ -147,6 +154,8 @@ label exit;
  - https://courses.cs.washington.edu/courses/cse505/01au/functional/functional-io.pdf - описание трех способов на примере абстракции IO
  - https://youtu.be/Tkjg179M-Nc
  - https://github.com/cyclejs/cyclejs/issues/581#issuecomment-301344221
+ - https://github.com/noflo/noflo http://www.jpaulmorrison.com/fbp/#More - Flow-based Programming
+ - Что такое стрелки?  https://www.haskell.org/arrows/biblio.html
 
 ### Что дальше?
  - доказать что все эти проблемы стекаются к одной или опровергнуть это
@@ -212,6 +221,7 @@ label exit;
  - http://tonsky.me/blog/interactive-development/
  - http://lighttable.com/
  - http://witheve.com/
+ - https://wallabyjs.com/
  - http://www.cs.cmu.edu/~NatProg/whyline.html
  - http://nightcoders.net/
  - https://sekao.net/nightlight/
@@ -281,6 +291,7 @@ label exit;
 
 ## Domain specific language: free monad, macro systems, embedded language
 Примеры - рендеринг
+https://www.youtube.com/watch?v=vzLK_xE9Zy8
 
 ## Противоречие выразительность vs простота
 
