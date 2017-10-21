@@ -53,6 +53,7 @@ TODO итого было бы очень клево иметь такой пай
  - https://cstheory.stackexchange.com/questions/21836/why-does-coq-have-prop
  - https://news.ycombinator.com/item?id=7875309
  - https://cs.stackexchange.com/questions/54957/difference-between-dependent-type-refinement-type-and-hoare-logic
+ - https://www.youtube.com/watch?v=jVyz3lWH2bA
 
 ### Что дальше?
  - написать генератор данных для одной из либ из списка выше
