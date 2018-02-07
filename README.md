@@ -156,6 +156,7 @@ ControlFlow(F1, F2) -> F3
  - https://github.com/cyclejs/cyclejs/issues/581#issuecomment-301344221
  - https://github.com/noflo/noflo http://www.jpaulmorrison.com/fbp/#More - Flow-based Programming
  - Что такое стрелки?  https://www.haskell.org/arrows/biblio.html
+ - http://blog.ielliott.io/continuations-from-the-ground-up/
 
 ### Что дальше?
  - доказать что все эти проблемы стекаются к одной или опровергнуть это
@@ -296,4 +297,5 @@ https://www.youtube.com/watch?v=vzLK_xE9Zy8
 ## Противоречие выразительность vs простота
 
 ## Вики-убийца
-
+прочитать про майндмапы http://glebkalinin.ru/the-brain/
+пролог и диалектика
